@@ -36,22 +36,22 @@ const NavBar: React.FC = () => {
                         </button>
                     </div>
                 </div>
-                <Link to='/illustration' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/illustration' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     Illustration
                 </Link>
-                <Link to='/fashion' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/fashion' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     Fasion + Costum Design
                 </Link>
-                <Link to='/styling' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/styling' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     Styling
                 </Link>
-                <Link to='/' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     Home
                 </Link>
-                <Link to='/about' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/about' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     About
                 </Link>
-                <Link to='/contact' className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
+                <Link to='/contact' onClick={toggleMenu} className={`font-bodoni mplus text-3xl mb-4 hover:underline transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                     Contact
                 </Link>
             </div>
