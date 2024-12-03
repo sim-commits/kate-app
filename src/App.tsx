@@ -9,7 +9,7 @@ import Illustration from './pages/Illustration';
 
 const App: React.FC = () => {
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home></Home>}></Route>
