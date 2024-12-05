@@ -16,7 +16,7 @@ const Triptych: React.FC = () => {
             </div>
             {/* Third Image */}
             <div className='flex-grow relative group'>
-                <img src={image1} alt='Image 3' className='absolute inset-0 w-full h-full object-cover object-[center_10%] md:object-[center_top] transition-transform duration-500 ease-in-out group-hover:scale-110' />
+                <img src={image1} alt='Image 3' className='absolute inset-0 w-full h-full object-cover object-[center_10%] md:object-[center_20%] transition-transform duration-500 ease-in-out group-hover:scale-110' />
             </div>
         </div>
     );
