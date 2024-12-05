@@ -1,7 +1,8 @@
 import React from 'react';
+import Triptych from '../components/Triptych';
 
 const About: React.FC = () => {
-    return <p>gg</p>;
+    return <Triptych></Triptych>;
 };
 
 export default About;
