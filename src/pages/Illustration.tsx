@@ -1,8 +1,8 @@
 import React from 'react';
-import PhotoGrid from '../components/PhotoGrid';
+import LineUp from '../components/LineUp';
 
 const Illustration: React.FC = () => {
-    return <PhotoGrid></PhotoGrid>;
+    return <LineUp></LineUp>;
 };
 
 export default Illustration;
