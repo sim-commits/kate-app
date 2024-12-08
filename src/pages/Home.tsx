@@ -1,8 +1,8 @@
 import React from 'react';
-import LeftBottomText from '../components/LeftBottomText';
+import Triptych from '../components/Triptych';
 
 const Home: React.FC = () => {
-    return <LeftBottomText />;
+    return <Triptych></Triptych>;
 };
 
 export default Home;
