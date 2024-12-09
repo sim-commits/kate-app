@@ -13,7 +13,9 @@ const NavBar: React.FC = () => {
             <nav className='bg-white text-black'>
                 {/* Mobile NavBar*/}
                 <div className='flex md:hidden justify-between items-center p-8'>
-                    <div className='font-bodoni tracking-wider text-center text-4xl'>Kate Colby</div>
+                    <Link to='/'>
+                        <div className='font-bodoni tracking-wider text-center text-4xl'>Kate Colby</div>
+                    </Link>
                     <button onClick={toggleMenu} className='focus:outline-none'>
                         <div className='flex flex-col justify-center items-center w-8 h-8'>
                             <span className={`block w-full h-1 bg-black transform transition duration-300 ease-in-out ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
@@ -70,7 +72,9 @@ const NavBar: React.FC = () => {
                             contact
                         </Link>
                     </div>
-                    <div className='font-bodoni tracking-wider text-center text-6xl'>Kate Colby</div>
+                    <Link to='/'>
+                        <div className='font-bodoni tracking-wider text-center text-6xl'>Kate Colby</div>
+                    </Link>
                     <div className='flex justify-center items-center p-7 space-x-32 mplus text-xl'>
                         <Link to='/illustration' className='hover:underline'>
                             Illustration
