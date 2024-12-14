@@ -1,8 +1,8 @@
 import React from 'react';
-import PhotoGrid from '../components/PhtotoGrid';
+import TwoColumnPhoto from '../components/TwoColumnPhoto';
 
 const FashionCostumeDesign: React.FC = () => {
-    return <PhotoGrid></PhotoGrid>;
+    return <TwoColumnPhoto></TwoColumnPhoto>;
 };
 
 export default FashionCostumeDesign;

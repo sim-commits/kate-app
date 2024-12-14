@@ -10,7 +10,7 @@ import image7 from '../assets/ScreenshotPM7.png';
 import image8 from '../assets/ScreenshotPM8.png';
 import image9 from '../assets/ScreenshotPM9.png';
 
-const PhotoGrid: React.FC = () => {
+const TwoColumnPhoto: React.FC = () => {
     const imagesCol1 = [image1, image2, image3, image4];
 
     const imagesCol2 = [image5, image6, image7, image8, image9];
@@ -34,4 +34,4 @@ const PhotoGrid: React.FC = () => {
     );
 };
 
-export default PhotoGrid;
+export default TwoColumnPhoto;
