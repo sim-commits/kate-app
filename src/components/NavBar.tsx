@@ -41,22 +41,22 @@ const NavBar: React.FC = () => {
                             </button>
                         </div>
                     </div>
-                    <NavLink to='/illustration' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/illustration' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         Illustration
                     </NavLink>
-                    <NavLink to='/design' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/design' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         Fashion + Costume Design
                     </NavLink>
-                    <NavLink to='/styling' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/styling' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         Styling
                     </NavLink>
-                    <NavLink to='/' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         Home
                     </NavLink>
-                    <NavLink to='/about' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/about' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         About
                     </NavLink>
-                    <NavLink to='/contact' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
+                    <NavLink to='/contact' onClick={() => setIsOpen(false)} className={({ isActive }) => `font-bodoni text-center text-3xl mb-4 hover:underline ${isActive ? 'underline decoration-black' : ''} transform transition-transform duration-300 ${isOpen ? '-translate-y-0' : 'translate-y-full'}`}>
                         Contact
                     </NavLink>
                 </div>
