@@ -1,7 +1,7 @@
 {
     "name": "kate-app",
     "private": true,
-    "homepage": "https://sim-commits.github.io/kate-app",
+    "homepage": "https://sim-commits.github.io/",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
