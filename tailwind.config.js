@@ -5,7 +5,8 @@ export default {
         extend: {
             fontFamily: {
                 bodoni: ['Libre Bodoni', 'serif'],
-                mplus: ['"M PLUS 1', 'sans-serif'],
+                mplus: ['"M PLUS 1', 'serif'],
+                inknut: ['Inknut Antiqua', 'serif'],
                 letterSpacing: {
                     wider: '0.05em',
                     widest: '0.1em',

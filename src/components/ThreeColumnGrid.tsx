@@ -5,23 +5,34 @@ import image3 from '../assets/3.png';
 import image4 from '../assets/4.png';
 import image5 from '../assets/5.png';
 import image6 from '../assets/6.png';
+import logo1 from '../assets/waiwaolani.png';
+import logo2 from '../assets/Lands.png';
+import logo3 from '../assets/hui.png';
 
 const ThreeColumnGrid = () => {
     const images = [
-        { src: image1, link: '/page1' },
-        { src: image2, link: '/page2' },
-        { src: image3, link: '/page3' },
-        { src: image4, link: '/ballet' },
-        { src: image5, link: '/page5' },
-        { src: image6, link: '/page6' },
+        { src: image1, link: '/page1', logo: logo1, subtitle: 'Fashion Collection Development', role: 'Freelance Designer', year: '2025' },
+        { src: image2, link: '/page2', title: 'David Delfin Contest Submission', subtitle: 'Independant Collection', role: '', year: '2024' },
+        { src: image3, link: '/page3', logo: logo2, subtitle: 'Li Fung Group', role: 'Fashion Design Intern', year: '2024' },
+        { src: image4, link: '/page3', title: 'SWAN LAKE', subtitle: 'Seabury Hall', role: 'Studio Assistant', year: '2024' },
+        { src: image5, link: '/ballet', logo: logo3, title: 'THE NUTCRACKER', subtitle: 'Maui Arts & Cultural Center', role: 'Studio Assistant', year: '2025' },
+        { src: image6, link: '/page3', title: 'MURDER ON THE ORIENT EXPRESS', subtitle: 'Iao Theater', role: 'Studio Assistant', year: '2025' },
     ];
 
     return (
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mx-4 mb-4'>
             {images.map((image, index) => (
-                <NavLink key={index} to={image.link} className='relative w-full pt-[129.64%] overflow-hidden block'>
-                    {/* 129.64% = (538/415) * 100 to maintain the aspect ratio */}
-                    <img src={image.src} alt={`Image ${index + 1}`} className='absolute top-0 left-0 w-full h-full object-cover' />
+                <NavLink key={index} to={image.link} className='relative w-full pt-[129.64%] overflow-hidden block group'>
+                    <img src={image.src} alt={image.title} className='absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105' />
+
+                    {/* Overlay with text and conditional logo */}
+                    <div className='absolute inset-0 bg-white bg-opacity-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-black text-center px-4 font-inknut'>
+                        {image.logo && <img src={image.logo} alt='Logo' className='mb-2' />}
+                        <h2 className='text-2xl'>{image.title}</h2>
+                        <p className='text-sm'>{image.subtitle}</p>
+                        <p className='text-sm italic'>{image.role}</p>
+                        <p className='text-sm mt-1'>{image.year}</p>
+                    </div>
                 </NavLink>
             ))}
         </div>
