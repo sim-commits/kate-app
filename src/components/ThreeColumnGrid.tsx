@@ -26,12 +26,12 @@ const ThreeColumnGrid = () => {
                     <img src={image.src} alt={image.title} className='absolute top-0 left-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105' />
 
                     {/* Overlay with text and conditional logo */}
-                    <div className='absolute inset-0 bg-white bg-opacity-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-black text-center px-4 font-inknut'>
+                    <div className='absolute inset-0 bg-white bg-opacity-55 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-black text-center px-4 font-inknut'>
                         {image.logo && <img src={image.logo} alt='Logo' className='mb-2' />}
-                        <h2 className='text-2xl'>{image.title}</h2>
-                        <p className='text-sm'>{image.subtitle}</p>
-                        <p className='text-sm italic'>{image.role}</p>
-                        <p className='text-sm mt-1'>{image.year}</p>
+                        <h2 className='text-4xl'>{image.title}</h2>
+                        <p className='text-2xl'>{image.subtitle}</p>
+                        <p className='text-2xl italic'>{image.role}</p>
+                        <p className='text-2xl mt-1'>{image.year}</p>
                     </div>
                 </NavLink>
             ))}
