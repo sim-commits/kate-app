@@ -83,13 +83,13 @@ const NavBar: React.FC = () => {
 
                     <div className='flex justify-center items-center p-7 space-x-32 mplus text-xl'>
                         <NavLink to='/illustration' className={({ isActive }) => `hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
-                            ILLUSTRATION
+                            Illustration
                         </NavLink>
                         <NavLink to='/design' className={({ isActive }) => `hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
-                            FASHION + COSTUME DESIGN
+                            Fashion + Costume Design
                         </NavLink>
                         <NavLink to='/styling' className={({ isActive }) => `hover:underline ${isActive ? 'underline decoration-black' : ''}`}>
-                            STYLING
+                            Styling
                         </NavLink>
                     </div>
                 </div>
