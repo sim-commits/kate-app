@@ -1,7 +1,7 @@
 import React from 'react';
 import image1 from '../assets/tempImageqr86uX.png';
 import image2 from '../assets/virtual.png';
-import image3 from '../assets/SaighAriana_08_26.png';
+import image3 from '../assets/SaighAriana_08_26.avif';
 import { NavLink } from 'react-router-dom';
 
 const Triptych: React.FC = () => {

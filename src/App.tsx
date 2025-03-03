@@ -16,6 +16,7 @@ import David from './pages/David';
 import Murder from './pages/Murder';
 import Waiwaolani from './pages/Waiwaolani';
 import Land from './pages/Land';
+import Jewelry from './pages/Jewelry';
 
 const App: React.FC = () => {
     return (
@@ -33,6 +34,7 @@ const App: React.FC = () => {
                 <Route path='/murder' element={<Murder />} />
                 <Route path='/waiwaolani' element={<Waiwaolani />} />
                 <Route path='/land' element={<Land />} />
+                <Route path='/jewelry' element={<Jewelry />} />
             </Routes>
         </Router>
     );
