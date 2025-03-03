@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import image1 from '../assets/1.png';
-import image2 from '../assets/2.png';
+import image2 from '../assets/pantsfit1.png';
 import image3 from '../assets/3.png';
 import image4 from '../assets/4.png';
 import image5 from '../assets/5.png';
@@ -11,12 +11,13 @@ import logo3 from '../assets/hui.png';
 
 const ThreeColumnGrid = () => {
     const images = [
-        { src: image1, link: '/page1', logo: logo1, subtitle: 'Fashion Collection Development', role: 'Freelance Designer', year: '2025' },
-        { src: image2, link: '/page2', title: 'David Delfin Contest Submission', subtitle: 'Independant Collection', role: '', year: '2024' },
-        { src: image3, link: '/page3', logo: logo2, subtitle: 'Li Fung Group', role: 'Fashion Design Intern', year: '2024' },
-        { src: image4, link: '/page3', title: 'SWAN LAKE', subtitle: 'Seabury Hall', role: 'Studio Assistant', year: '2024' },
+        { src: image1, link: '/waiwaolani', logo: logo1, subtitle: 'Fashion Collection Development', role: 'Freelance Designer', year: '2025' },
+        { src: image2, link: '/david', title: 'David Delfin Contest Submission', subtitle: 'Independant Collection', role: '', year: '2024' },
+        { src: image3, link: '/land', logo: logo2, subtitle: 'Li Fung Group', role: 'Fashion Design Intern', year: '2024' },
+        { src: image4, link: '/page3', logo: logo3, title: 'SWAN LAKE', subtitle: 'Seabury Hall', role: 'Studio Assistant', year: '2024' },
         { src: image5, link: '/ballet', logo: logo3, title: 'THE NUTCRACKER', subtitle: 'Maui Arts & Cultural Center', role: 'Studio Assistant', year: '2025' },
-        { src: image6, link: '/page3', title: 'MURDER ON THE ORIENT EXPRESS', subtitle: 'Iao Theater', role: 'Studio Assistant', year: '2025' },
+        { src: image6, link: '/murder', logo: logo3, title: 'MURDER ON THE ORIENT EXPRESS', subtitle: 'Iao Theater', role: 'Studio Assistant', year: '2025' },
+        { src: image6, link: '/murder', logo: logo3, title: 'MURDER ON THE ORIENT EXPRESS', subtitle: 'Iao Theater', role: 'Studio Assistant', year: '2025' },
     ];
 
     return (

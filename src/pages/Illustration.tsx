@@ -9,23 +9,29 @@ import image5 from '../assets/IMG_4376.png';
 import image6 from '../assets/IMG_4391.png';
 import image7 from '../assets/IMG_4377.png';
 
+import image8 from '../assets/fatlineup.png';
+
 const colorImages = [
-    { src: image2, alt: 'Image 2', description: 'This is Image 2' },
-    { src: image4, alt: 'Image 4', description: 'This is Image 4' },
-    { src: image5, alt: 'Image 5', description: 'This is Image 5' },
-    { src: image6, alt: 'Image 6', description: 'This is Image 6' },
-    { src: image7, alt: 'Image 7', description: 'This is Image 7' },
+    { src: image2, alt: 'Image 2', description: '' },
+    { src: image4, alt: 'Image 4', description: '' },
+    { src: image5, alt: 'Image 5', description: '' },
+    { src: image6, alt: 'Image 6', description: '' },
+    { src: image7, alt: 'Image 7', description: '' },
 ];
 
 const blackWhiteImages = [
-    { src: image1, alt: 'Image 1', description: 'This is Image 1' },
-    { src: image3, alt: 'Image 3', description: 'This is Image 3' },
+    { src: image1, alt: 'Image 1', description: '' },
+    { src: image3, alt: 'Image 3', description: '' },
 ];
+
+const fatImages = [{ src: image8, alt: 'Image 1', description: '' }];
 
 const Illustration: React.FC = () => {
     return (
         <div className='flex flex-col items-center'>
-            {/* Shrink each row on md screens */}
+            <div className='w-full md:w-[50%]'>
+                <LineUp images={fatImages} />
+            </div>
             <div className='w-full md:w-[35%]'>
                 <LineUp images={blackWhiteImages} />
             </div>

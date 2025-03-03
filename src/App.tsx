@@ -12,6 +12,10 @@ import Home from './pages/Home';
 import Illustration from './pages/Illustration';
 import Styling from './pages/Styling';
 import Ballet from './pages/Ballet';
+import David from './pages/David';
+import Murder from './pages/Murder';
+import Waiwaolani from './pages/Waiwaolani';
+import Land from './pages/Land';
 
 const App: React.FC = () => {
     return (
@@ -25,6 +29,10 @@ const App: React.FC = () => {
                 <Route path='/illustration' element={<Illustration />} />
                 <Route path='/styling' element={<Styling />} />
                 <Route path='/ballet' element={<Ballet />} />
+                <Route path='/david' element={<David />} />
+                <Route path='/murder' element={<Murder />} />
+                <Route path='/waiwaolani' element={<Waiwaolani />} />
+                <Route path='/land' element={<Land />} />
             </Routes>
         </Router>
     );
