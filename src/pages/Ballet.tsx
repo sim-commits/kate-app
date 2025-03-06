@@ -19,7 +19,7 @@ const Ballet: React.FC = () => {
     return (
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
-            <div className='text-left mb-8 ml-8'>
+            <div className='text-left mb-8 px-8'>
                 <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>THE NUTCRACKER, 2025, Maui Arts & Cultural Center</h1>
                 <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Studio Assistant to Costume Designer Jennifer Oberg</p>
             </div>
