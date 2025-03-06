@@ -21,6 +21,8 @@ import Jean from './pages/Jean';
 import Ilana from './pages/Ilana';
 import Saigh from './pages/Saigh';
 import Ella from './pages/Ella';
+import Rachel from './pages/Rachel';
+import Stables from './pages/Stables';
 
 const App: React.FC = () => {
     return (
@@ -43,6 +45,8 @@ const App: React.FC = () => {
                 <Route path='/ilana' element={<Ilana />} />
                 <Route path='/saigh' element={<Saigh />} />
                 <Route path='/ella' element={<Ella />} />
+                <Route path='/rachel' element={<Rachel />} />
+                <Route path='/stables' element={<Stables />} />
             </Routes>
         </Router>
     );

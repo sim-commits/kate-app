@@ -17,8 +17,8 @@ const Land: React.FC = () => {
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
             <div className='text-left mb-8 ml-8'>
-                <h1 className='text-4xl font-inknut tracking-wide text-gray-900'>Lands’ End</h1>
-                <p className='text-2xl font-inknut text-gray-700 mt-2'>Design Intern, special projects on choosing sustainable techniques and materials</p>
+                <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>Lands’ End</h1>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Design Intern, special projects on choosing sustainable techniques and materials</p>
             </div>
 
             {/* Three-Column Photo Section */}

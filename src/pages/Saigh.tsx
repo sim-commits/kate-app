@@ -12,18 +12,18 @@ import image8 from '../assets/saigh8.avif';
 import image9 from '../assets/saigh9.avif';
 
 const Saigh: React.FC = () => {
-    const imagesCol1 = [image1, image2, image3];
-    const imagesCol2 = [image4, image5, image6];
+    const imagesCol1 = [image1, image2, image6];
+    const imagesCol2 = [image4, image5, image3];
     const imagesCol3 = [image7, image8, image9];
     return (
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
             <div className='text-left mb-8 ml-8'>
-                <h1 className='text-4xl font-inknut tracking-wide text-gray-900'>BLURRED VISION Editorial, 2022</h1>
-                <p className='text-2xl font-inknut text-gray-700 mt-2'>Styling by Kate Colby </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Photographer: Ariana Saigh @arianasaigh</p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>MUA: Kyra Leigh @kyraaleigh_</p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Models: Cherry Gong, CÉLIA LEBRUMENT</p>
+                <h1 className='text-2xl md:text-4xl font-inknut tracking-wide text-gray-900'>BLURRED VISION Editorial, 2022</h1>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Styling by Kate Colby </p>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Photographer: Ariana Saigh @arianasaigh</p>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>MUA: Kyra Leigh @kyraaleigh_</p>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Models: Cherry Gong, CÉLIA LEBRUMENT</p>
             </div>
 
             {/* Three-Column Photo Section */}

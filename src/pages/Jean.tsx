@@ -19,14 +19,14 @@ const Jean: React.FC = () => {
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
             <div className='text-left mb-8 ml-8'>
-                <h1 className='text-4xl font-inknut tracking-wide text-gray-900'>STYLING</h1>
-                <p className='text-2xl font-inknut text-gray-700 mt-2'>JEAN BAPTISTE: Reset, Refined, Reborn by MikeRuiz @mikeruizone for STYLE by SCMP, April 2023 issue Model- JeanBaptiste @jeanbatriste </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Styled by Kristine Kilty @kristinekilty. Brands include Versace, VanCleefArpels + more. </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Makeup byOlivier Tissot @olivier_tissot </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Hair by Cyrillic Fort @cyrillaforetcovers </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Retouching by Zagornaya Darya. </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Fashion Assistants- Kate Colby & Tarren Garcia </p>
-                <p className='text-xl font-inknut text-gray-700 mt-2'>Photography Assistant- Lorenzo Fioravanti @lofioravantiserves</p>
+                <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>STYLING</h1>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>JEAN BAPTISTE: Reset, Refined, Reborn by MikeRuiz @mikeruizone for STYLE by SCMP, April 2023 issue Model- JeanBaptiste @jeanbatriste </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Styled by Kristine Kilty @kristinekilty. Brands include Versace, VanCleefArpels + more. </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Makeup byOlivier Tissot @olivier_tissot </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Hair by Cyrillic Fort @cyrillaforetcovers </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Retouching by Zagornaya Darya. </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Fashion Assistants- Kate Colby & Tarren Garcia </p>
+                <p className='text-base md:text-xl font-inknut text-gray-700 mt-2'>Photography Assistant- Lorenzo Fioravanti @lofioravantiserves</p>
             </div>
 
             {/* Three-Column Photo Section */}

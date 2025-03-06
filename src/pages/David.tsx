@@ -19,8 +19,8 @@ const David: React.FC = () => {
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
             <div className='text-left mb-8 ml-8'>
-                <h1 className='text-4xl font-inknut tracking-wide text-gray-900'>Entry for SPAM Fashion Competition + David Delfin Prize, 2024</h1>
-                <p className='text-2xl font-inknut text-gray-700 mt-2'>
+                <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>Entry for SPAM Fashion Competition + David Delfin Prize, 2024</h1>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>
                     Committed to sustainability, the fabrics I used are either composed of natural fibers or upcycled from deadstock materials. To further reduce waste, I utilized CLO 3D for the initial patterning process, minimizing textile waste during fittings. Additionally, I crafted natural dyes from locally sourced materials, such as hibiscus and annatto from neighborhood gardens, alongside roses, turmeric, paprika, Kona coffee, and cherry. Design studio powered through solar panels.
                 </p>
             </div>

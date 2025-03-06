@@ -21,8 +21,8 @@ const Murder: React.FC = () => {
         <div className='flex flex-col min-h-screen'>
             {/* Header Section */}
             <div className='text-left mb-8 ml-8'>
-                <h1 className='text-4xl font-inknut tracking-wide text-gray-900'>MURDER ON THE ORIENT EXPRESS, 2024, Iao Theater</h1>
-                <p className='text-2xl font-inknut text-gray-700 mt-2'>Studio Assistant to Costume Designer Jennifer Oberg</p>
+                <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>MURDER ON THE ORIENT EXPRESS, 2024, Iao Theater</h1>
+                <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Studio Assistant to Costume Designer Jennifer Oberg</p>
             </div>
 
             {/* Three-Column Photo Section */}
