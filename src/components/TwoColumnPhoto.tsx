@@ -1,33 +1,59 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import image1 from '../assets/ScreenshotPM1.png';
-import image2 from '../assets/ScreenshotPM2.png';
-import image3 from '../assets/ScreenshotPM3.png';
+import image2 from '../assets/SaighAriana_08_26.avif';
+import image3 from '../assets/ind.png';
 import image4 from '../assets/ScreenshotPM4.png';
-import image5 from '../assets/ScreenshotPM5.png';
-import image6 from '../assets/ScreenshotPM6.png';
-import image7 from '../assets/ScreenshotPM7.png';
-import image8 from '../assets/ScreenshotPM8.png';
-import image9 from '../assets/ScreenshotPM9.png';
+import image5 from '../assets/rennee.png';
+import image6 from '../assets/RachelZegler.png';
+import image7 from '../assets/ScreenshotPM9.png';
+import image8 from '../assets/styl.png';
+
+const imagesCol1 = [
+    { src: image1, title: 'Ilana Glazer for Parents Magazine', subtitle: 'July 2022', link: '/ilana' },
+    { src: image2, title: 'BLURRED VISION Editorial', subtitle: '2022', link: '/saigh' },
+    { src: image7, title: 'Uma Thurman For Tory Burch Runway NYFW', subtitle: '2022 Assistant to stylist Sarah Slutsky', link: '/city' },
+    { src: image3, title: 'STABLES', link: '/mountain' },
+];
+
+const imagesCol2 = [
+    { src: image8, title: 'Jean Baptiste: Reset, Redefined, Reborn by Mike Ruiz', link: '/jean' },
+    { src: image6, title: 'Rachel Zeglar for BAFTAs', subtitle: '2022', link: '/forest' },
+    { src: image4, title: 'Ella Hunt. Assistant to stylist Sarah Slutsky', subtitle: '2022', link: '/ella' },
+    { src: image5, title: 'Renee Elise Goldsberry at Met Gala', subtitle: '2022', link: '/snow' },
+];
 
 const TwoColumnPhoto: React.FC = () => {
-    const imagesCol1 = [image1, image2, image3, image4];
-
-    const imagesCol2 = [image5, image6, image7, image8, image9];
-
     return (
-        <div className='flex flex-rox h-screen justify-center space-x-4 mr-4 ml-4'>
+        <div className='flex flex-row h-screen justify-center space-x-4 mx-4'>
             {/* First Column */}
             <div className='flex flex-col w-1/2 space-y-4'>
-                {imagesCol1.map((src, index) => (
-                    <img key={index} src={src} alt={`Image ${index + 1}`} className='w-full object-contain' loading='lazy' />
+                {imagesCol1.map((image, index) => (
+                    <NavLink key={index} to={image.link} className='relative'>
+                        <img src={image.src} alt={`Image ${index + 1}`} className='w-full object-contain' loading='lazy' />
+
+                        {/* Hover Effect */}
+                        <div className="absolute inset-0 bg-white bg-opacity-55 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center text-black text-center font-['Inknut_Antiqua'] p-4">
+                            <h2 className='text-4xl'>{image.title}</h2>
+                            <p className='text-2xl mt-2'>{image.subtitle}</p>
+                        </div>
+                    </NavLink>
                 ))}
             </div>
 
             {/* Second Column */}
             <div className='flex flex-col w-1/2 space-y-4'>
-                {imagesCol2.map((src, index) => (
-                    <img key={index} src={src} alt={`Image ${index + 4}`} className='w-full object-contain' loading='lazy' />
+                {imagesCol2.map((image, index) => (
+                    <NavLink key={index} to={image.link} className='relative'>
+                        <img src={image.src} alt={`Image ${index + 5}`} className='w-full object-contain' loading='lazy' />
+
+                        {/* Hover Effect */}
+                        <div className="absolute inset-0 bg-white bg-opacity-55 opacity-0 hover:opacity-100 transition-opacity flex flex-col justify-center items-center text-black text-center font-['Inknut_Antiqua'] p-4">
+                            <h2 className='text-4xl'>{image.title}</h2>
+                            <p className='text-2xl mt-2'>{image.subtitle}</p>
+                        </div>
+                    </NavLink>
                 ))}
             </div>
         </div>
