@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
     return (
-        <div className='flex flex-col min-h-screen text-left mt-8 px-4 md:px-32'>
+        <div className='flex flex-col min-h-screen text-left md:mt-8 px-4 md:px-32'>
             <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>About</h1>
             <p className='text-base md:text-2xl font-inknut text-gray-700 mt-2'>Kate Colby is a fashion designer with a deep appreciation for craftsmanship, storytelling, and innovation. A graduate of Parsons School of Design, BFA with international experience at Paris College of Art, she blends technical training with an artistic approach.</p>
             <br />
