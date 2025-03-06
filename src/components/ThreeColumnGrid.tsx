@@ -18,7 +18,7 @@ const ThreeColumnGrid = () => {
         { src: image4, link: '/page3', logo: logo3, title: 'SWAN LAKE', subtitle: 'Seabury Hall', role: 'Studio Assistant', year: '2024' },
         { src: image5, link: '/ballet', logo: logo3, title: 'THE NUTCRACKER', subtitle: 'Maui Arts & Cultural Center', role: 'Studio Assistant', year: '2025' },
         { src: image6, link: '/murder', logo: logo3, title: 'MURDER ON THE ORIENT EXPRESS', subtitle: 'Iao Theater', role: 'Studio Assistant', year: '2025' },
-        { src: image7, link: '/jewelry', title: 'Jewelry Design', subtitle: 'Independant Work', year: '2022' },
+        { src: image7, link: '/jewelry', title: 'Jewelry Design', subtitle: 'Independent Work', year: '2022' },
     ];
 
     return (
