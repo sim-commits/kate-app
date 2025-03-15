@@ -8,7 +8,7 @@ interface ThreeColumnPhotoProps {
 
 const ThreeColumnPhoto: React.FC<ThreeColumnPhotoProps> = ({ imagesCol1, imagesCol2, imagesCol3 }) => {
     return (
-        <div className='flex flex-row h-screen justify-center space-x-4 px-4'>
+        <div className='flex flex-row justify-center space-x-4 px-4'>
             <PhotoColumn images={imagesCol1} />
             <PhotoColumn images={imagesCol2} />
             <PhotoColumn images={imagesCol3} />

@@ -14,7 +14,7 @@ const Land: React.FC = () => {
     const imagesCol2 = [image4, image5, image6];
     const imagesCol3 = [image7, image8];
     return (
-        <div className='flex flex-col min-h-screen'>
+        <div className='flex flex-col'>
             {/* Header Section */}
             <div className='text-left mb-8 px-8'>
                 <h1 className='text-xl md:text-4xl font-inknut tracking-wide text-gray-900'>Lands’ End</h1>
