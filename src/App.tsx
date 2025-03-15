@@ -23,10 +23,12 @@ import Saigh from './pages/Saigh';
 import Ella from './pages/Ella';
 import Rachel from './pages/Rachel';
 import Stables from './pages/Stables';
+import ScrollToTop from './hooks/ScrollToTop';
 
 const App: React.FC = () => {
     return (
         <Router basename={import.meta.env.BASE_URL}>
+            <ScrollToTop />
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />} />

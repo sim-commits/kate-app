@@ -13,7 +13,7 @@ import image8 from '../assets/styl.png';
 const imagesCol1 = [
     { src: image1, title: 'Ilana Glazer for Parents Magazine', subtitle: 'July 2022', link: '/ilana' },
     { src: image2, title: 'BLURRED VISION Editorial', subtitle: '2022', link: '/saigh' },
-    { src: image7, title: 'Uma Thurman For Tory Burch Runway NYFW', subtitle: '2022 Assistant to stylist Sarah Slutsky', link: '/city' },
+    { src: image7, title: 'Uma Thurman For Tory Burch Runway NYFW', subtitle: '2022 Assistant to stylist Sarah Slutsky', link: '/styling' },
     { src: image3, title: 'STABLES', subtitle: '2022', link: '/stables' },
 ];
 
@@ -21,7 +21,7 @@ const imagesCol2 = [
     { src: image8, title: 'Jean Baptiste: Reset, Redefined, Reborn by Mike Ruiz', link: '/jean' },
     { src: image6, title: 'Rachel Zeglar for BAFTAs', subtitle: '2022', link: '/rachel' },
     { src: image4, title: 'Ella Hunt', subtitle: '2022', link: '/ella' },
-    { src: image5, title: 'Renee Elise Goldsberry at Met Gala', subtitle: '2022', link: '/snow' },
+    { src: image5, title: 'Renee Elise Goldsberry at Met Gala', subtitle: '2022', link: '/styling' },
 ];
 
 const TwoColumnPhoto: React.FC = () => {
