@@ -24,6 +24,7 @@ import Ella from './pages/Ella';
 import Rachel from './pages/Rachel';
 import Stables from './pages/Stables';
 import ScrollToTop from './hooks/ScrollToTop';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
     return (
@@ -50,6 +51,7 @@ const App: React.FC = () => {
                 <Route path='/rachel' element={<Rachel />} />
                 <Route path='/stables' element={<Stables />} />
             </Routes>
+            <Footer />
         </Router>
     );
 };
