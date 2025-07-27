@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import image1 from '../assets/ScreenshotPM1.png';
+import image1 from '../assets/ilana-glazer-3.webp';
 import image2 from '../assets/SaighAriana_08_26.avif';
 import image3 from '../assets/ind.png';
-import image4 from '../assets/ScreenshotPM4.png';
+import image4 from '../assets/ella-hunt-Fitness-Center-Rules-2022-3.webp';
 import image5 from '../assets/rennee.png';
 import image6 from '../assets/RachelZegler.png';
 import image7 from '../assets/ScreenshotPM9.png';
