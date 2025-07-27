@@ -2,7 +2,7 @@ import React from 'react';
 import ThreeColumnPhoto from '../components/ThreeColumnPhoto';
 
 import image1 from '../assets/ScreenshotPM1.png';
-import image2 from '../assets/ilana2.png';
+import image2 from '../assets/ilana-glazer-1.webp';
 import image3 from '../assets/ilona3.png';
 
 const Ilana: React.FC = () => {
