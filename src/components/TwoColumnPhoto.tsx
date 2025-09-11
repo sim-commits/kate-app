@@ -6,7 +6,7 @@ import image2 from '../assets/SaighAriana_08_26.avif';
 import image3 from '../assets/ind.png';
 import image4 from '../assets/ella-hunt-Fitness-Center-Rules-2022-3.webp';
 import image5 from '../assets/rennee.png';
-import image6 from '../assets/RachelZegler.png';
+import image6 from '../assets/Rachel-Zegler1.webp';
 import image7 from '../assets/ScreenshotPM9.png';
 import image8 from '../assets/styl.png';
 
