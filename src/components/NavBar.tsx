@@ -77,7 +77,7 @@ const NavBar: React.FC = () => {
 
                     <div className='font-bodoni tracking-wider text-center text-6xl '>
                         <NavLink to='/'>
-                            <span className='text-black transition-colors duration-300 hover:text-pink-400'>KATE COLBY</span>
+                            <span className='text-black transition-colors duration-300 hover:[color:#D8A8AF]'>KATE COLBY</span>
                         </NavLink>
                     </div>
 

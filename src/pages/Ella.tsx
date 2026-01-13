@@ -2,11 +2,12 @@ import React from 'react';
 import ThreeColumnPhoto from '../components/ThreeColumnPhoto';
 
 import image1 from '../assets/ScreenshotPM4.png';
-import image2 from '../assets/ella.png';
-import image3 from '../assets/ella2.png';
+import image2 from '../assets/Ella-Hunt-2.webp';
+import image3 from '../assets/Ella-Hunt_Oscar--Party2022.webp';
+import image4 from '../assets/Ella-Hunt-4.webp';
 
 const Ella: React.FC = () => {
-    const imagesCol1 = [image1];
+    const imagesCol1 = [image1, image4];
     const imagesCol2 = [image3];
     const imagesCol3 = [image2];
     return (
